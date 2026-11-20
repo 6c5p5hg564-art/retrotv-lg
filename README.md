@@ -1,9 +1,11 @@
-RETROTV LG v0.3 — prototype personnel
+# RETROTV LG v0.5
+Prototype personnel web statique conçu pour navigateur LG webOS.
 
-TEST SUR LG : publier le contenu de ce dossier sur un hébergeur statique HTTPS, puis ouvrir le lien sur le navigateur du téléviseur.
+## Mise à jour GitHub Pages
+Remplacer **index.html**, **style.css** et **app.js** à la racine du dépôt `retrotv-lg`, puis attendre le redéploiement GitHub Pages. Ne pas envoyer seulement index.html : les trois fichiers sont interdépendants.
 
-Méthode mobile : décompresser le ZIP dans Fichiers (iPhone), puis utiliser un service d’hébergement statique acceptant un dossier de fichiers (par exemple GitHub Pages avec dépôt créé via navigateur mobile). Les hébergeurs acceptant un ZIP peuvent imposer une structure particulière.
+## Fonctionnalités
+Interface console premium inspirée de la disposition fournie, navigation télécommande, catalogue consoles, collection locale de titres, diagnostic navigateur et mini-jeu original Snake. Aucun émulateur, BIOS ou jeu commercial n'est fourni. La compatibilité avec le navigateur LG 55UL3E-B reste à vérifier sur l'appareil.
 
-Fonctionnalités : catalogue de consoles, bibliothèque de titres, diagnostic navigateur, mini-jeu original RETRO SNAKE. Aucun moteur de console, BIOS ou ROM fourni.
-
-La prise en charge des touches de télécommande et les performances doivent être vérifiées sur le LG 55UL3E-B.
+## Dépannage
+Si l'ancien design apparaît après publication, actualiser la page et vider le cache du navigateur TV si nécessaire. Pour diagnostiquer, ouvrir Diagnostic TV et photographier le résultat.
